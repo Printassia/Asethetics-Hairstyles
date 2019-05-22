@@ -1,0 +1,337 @@
+.branding{
+	font-size:17px;
+	text-decoration: none;
+
+}
+
+.showcase{
+	background: url('../img/barber.png') no-repeat;
+	background-position: center;
+	height: 500px;
+	margin-top: 30px;
+	margin-left: 0px;
+	padding: 140px 100px;
+	color: #000000;
+
+}
+
+.showcase h1{
+	font-size: 40px;
+	font-weight: 700px;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.showcase hr{
+	/*This is making the break line(the line above Welcome) shorter or longer*/
+	width: 270px;
+	margin:auto;
+
+	border-width: 3px;
+	border-color: #b30000;
+}
+
+.showcase p{
+	font
+}
+
+.section {
+	padding: 40px 0;
+}
+.section img{
+	width: 100%;
+}
+
+.section h2 {
+	padding: 0;
+	margin: 0;
+}
+
+.section .fa{
+	font-size: 50px;
+}
+
+.social{
+	list-style-type: none; /*removes the bulletpoints*/
+	text-align: center;
+}
+
+.social li{
+	display: inline;
+	
+}
+
+.social i{
+	/*increase the facebook and google icon size*/
+	font-size: 260%;
+	margin:1%;
+	/*will shrink the area between smilet and the fb nd google icon*/
+	padding: 3% 3% 3% 3%;
+	color: #ffffff;
+}
+/* This will format the IMAGE of the Stylist */
+#who h3 img{
+width: 300px;
+display: inline-block;
+float: right;
+
+}
+
+.w3-row img{
+	/*this will format the size of the button under services*/
+	width: 40%;
+	margin-left: 100%;
+}
+
+.w3-row h1{
+	/*this will format the size of the button under services*/
+	width: 40%;
+	margin-left: 100%;
+}
+/*
+
+#styles .w3-row h4{
+	text-align: center;
+}
+*/
+/*Styles 1 format*/
+figure.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 180px;
+    margin-left: 155px;
+  /*   background-color: #cc33ff;*/
+    margin-top: 30px;
+
+}
+
+#service {
+	margin-top: 30px;
+}
+
+/*
+img {
+	
+    width: 500px;
+    height: 100px;
+    background-color: grey;
+}
+
+*/
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
+
+
+#booknow a {
+	text-decoration: none;
+}
+
+
+figcaption {
+	display: block;
+	text-align: center;
+}
+figure {
+	display: block;
+}
+
+/*
+#styles .w3-row p{
+	text-align: center;
+}
+*/
+
+
+footer{
+	text-align: center;
+	background-color: #737373;
+	margin-top: 0px;
+	/*top,right,bottom,left*/
+	padding: 2px 0px 2px 0px;
+
+}
+
+/*BOOK NOW CSS STYLING*/
+
+/*Form Styling*/
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+	resize: vertical;
+
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #33ccff;
+  color: white;
+	padding: 12px 20px;
+	margin-left: 90px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+	padding: 20px;
+	margin-top: 40px;
+	position: relative;
+width: 400%;
+	
+
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*END FORM STYLING*/
+
+#header h1 {
+	text-align: center;
+}
+
+
+
+#foot {
+	height: 42px;
+	margin-top: 174px;
+	padding-bottom:0px;
+	width: 100%; 
+	position: absolute;
+  }
+
+
+#services {
+ margin-top: 7px;
+ }
+
+
+#header2 {
+	background-color: #ff0095;
+	color: #000000;
+	text-align: center;
+	padding: 2px 0px 2px 0px;
+	margin: auto;
+}
+
+#header2 h1 {
+	margin-top: 40px;
+	margin-bottom: 5px;
+	/* font-family: Helvetica sans-serif; */
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+/*when page is shrunk*/
+
+@media only screen and (max-width: 768px) {
+	header #branding {
+		margin-top: 190px;
+		margin-bottom: 40px;
+		float: none;
+		text-align: center;
+		background-size: contain;
+		background-size: 10px 10px
+		
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
