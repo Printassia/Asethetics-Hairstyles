@@ -61,6 +61,7 @@
 	
 }
 
+
 .social i{
 	/*increase the facebook and google icon size*/
 	font-size: 260%;
@@ -76,6 +77,12 @@ display: inline-block;
 float: right;
 
 }
+
+/* STYLIST PHOTO IMAGE */
+h3 img #marci{
+	width: 400px;
+	height: 300px;
+	}
 
 .w3-row img{
 	/*this will format the size of the button under services*/
